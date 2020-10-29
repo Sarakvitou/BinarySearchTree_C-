@@ -8,5 +8,8 @@ private:
 public:
 	Node();
 	Node(const int number);
+	const int GetValue();
+	Node* GetLeftChild();
+	Node* GetRightChild();
 };
 
